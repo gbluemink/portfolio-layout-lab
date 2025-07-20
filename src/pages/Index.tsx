@@ -1,12 +1,28 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Hero from "@/components/Hero";
+import ProductSection from "@/components/ProductSection";
+import Contact from "@/components/Contact";
+import { professionalProducts, aiExperiments } from "@/data/products";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Hero />
+      
+      <ProductSection 
+        id="professional-products"
+        title="Professional Products"
+        subtitle="Products I've built and managed that have driven real business impact and user value"
+        products={professionalProducts}
+      />
+      
+      <ProductSection 
+        id="ai-experiments"
+        title="AI Experiments"
+        subtitle="Exploring the frontiers of AI and machine learning through hands-on experimentation"
+        products={aiExperiments}
+      />
+      
+      <Contact />
     </div>
   );
 };

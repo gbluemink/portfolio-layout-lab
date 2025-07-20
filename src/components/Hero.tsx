@@ -10,8 +10,8 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center hero-gradient">
       <div className="container mx-auto section-padding text-center">
         <div className="max-w-4xl mx-auto fade-in">
-          <h1 className="text-5xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-            Product Manager
+          <h1 className="text-4xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent leading-tight">
+            AI Product Manager
           </h1>
           <p className="text-xl lg:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
             Building impactful products that solve real problems. 
@@ -24,7 +24,15 @@ const Hero = () => {
               className="btn-primary-gradient px-8 py-6 text-lg"
               onClick={() => scrollToSection('professional-products')}
             >
-              View My Work
+              Professional Products
+            </Button>
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="px-8 py-6 text-lg"
+              onClick={() => scrollToSection('ai-experiments')}
+            >
+              AI Experiments
             </Button>
             <Button 
               variant="outline" 

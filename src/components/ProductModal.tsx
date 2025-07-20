@@ -81,38 +81,6 @@ const ProductModal = ({ isOpen, onClose, product }: ProductModalProps) => {
 
           <Separator />
 
-          {/* Challenges */}
-          <div>
-            <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
-              <Target size={20} className="text-primary" />
-              Key Challenges
-            </h3>
-            <ul className="space-y-2">
-              {product.challenges.map((challenge, index) => (
-                <li key={index} className="flex items-start gap-2">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
-                  <span className="text-muted-foreground">{challenge}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Solutions */}
-          <div>
-            <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
-              <Lightbulb size={20} className="text-primary" />
-              Solutions & Approach
-            </h3>
-            <ul className="space-y-2">
-              {product.solutions.map((solution, index) => (
-                <li key={index} className="flex items-start gap-2">
-                  <div className="w-2 h-2 bg-success rounded-full mt-2 flex-shrink-0" />
-                  <span className="text-muted-foreground">{solution}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-
           {/* Metrics */}
           <div>
             <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
@@ -131,7 +99,7 @@ const ProductModal = ({ isOpen, onClose, product }: ProductModalProps) => {
 
           {/* Tags */}
           <div>
-            <h3 className="text-lg font-semibold mb-3">Technologies & Skills</h3>
+            <h3 className="text-lg font-semibold mb-3">Technologies</h3>
             <div className="flex flex-wrap gap-2">
               {product.tags.map((tag) => (
                 <Badge key={tag} variant="secondary">

@@ -8,7 +8,15 @@ export const professionalProducts = [
     impact: "35% increase in conversion rate",
     timeline: "8 months",
     teamSize: "12 people (3 engineers, 2 designers, 1 data analyst)",
+    industry: "CPG",
     tags: ["Mobile", "E-commerce", "React Native", "Product Strategy", "A/B Testing", "Analytics"],
+    features: [
+      "One-click checkout with multiple payment options",
+      "AI-powered product recommendations",
+      "Real-time inventory tracking",
+      "Social sharing and reviews system",
+      "Advanced search with filters and autocomplete"
+    ],
     challenges: [
       "Complex user journey with multiple touchpoints",
       "Integration with legacy payment systems",
@@ -37,7 +45,15 @@ export const professionalProducts = [
     impact: "Used by 500+ businesses",
     timeline: "12 months",
     teamSize: "15 people (5 engineers, 2 designers, 1 data scientist)",
+    industry: "Construction",
     tags: ["SaaS", "Analytics", "React", "Data Visualization", "API Design", "User Research"],
+    features: [
+      "Real-time data visualization dashboards",
+      "Custom report builder with drag-and-drop interface",
+      "Automated data pipeline from multiple sources",
+      "Collaborative workspace for team insights",
+      "Mobile-responsive design for on-the-go access"
+    ],
     challenges: [
       "Handling large datasets efficiently",
       "Complex data integration from multiple sources",
@@ -65,7 +81,15 @@ export const professionalProducts = [
     impact: "60% improvement in scheduling efficiency",
     timeline: "10 months",
     teamSize: "8 people (4 engineers, 1 designer, 1 security specialist)",
+    industry: "Healthcare",
     tags: ["Healthcare", "React", "Security", "HIPAA", "UX Design", "Integration"],
+    features: [
+      "Smart appointment scheduling with availability optimization",
+      "Secure messaging between patients and providers",
+      "Prescription refill requests and tracking",
+      "Medical records access with permission controls",
+      "Telehealth integration for virtual appointments"
+    ],
     challenges: [
       "Strict HIPAA compliance requirements",
       "Integration with existing EMR systems",
@@ -96,7 +120,15 @@ export const aiExperiments = [
     impact: "25% increase in click-through rate",
     timeline: "3 months",
     teamSize: "4 people (2 ML engineers, 1 backend engineer)",
+    industry: "Gaming",
     tags: ["Machine Learning", "Python", "Recommendation Systems", "A/B Testing", "Data Science"],
+    features: [
+      "Real-time personalization engine",
+      "Collaborative filtering algorithms",
+      "Content-based recommendation system",
+      "A/B testing framework for model evaluation",
+      "User behavior analytics dashboard"
+    ],
     challenges: [
       "Cold start problem for new users",
       "Balancing exploration vs exploitation",
@@ -124,7 +156,15 @@ export const aiExperiments = [
     impact: "70% of inquiries handled automatically",
     timeline: "4 months", 
     teamSize: "5 people (2 NLP engineers, 1 backend engineer, 1 UX designer)",
+    industry: "Aerospace",
     tags: ["NLP", "Chatbot", "Customer Support", "Python", "Machine Learning", "UX"],
+    features: [
+      "Natural language intent recognition",
+      "Contextual conversation management",
+      "Seamless handoff to human agents",
+      "Multi-language support",
+      "Analytics dashboard for conversation insights"
+    ],
     challenges: [
       "Understanding diverse customer intents",
       "Maintaining conversation context",
@@ -152,7 +192,15 @@ export const aiExperiments = [
     impact: "95% accuracy in defect detection",
     timeline: "6 months",
     teamSize: "6 people (3 CV engineers, 1 hardware engineer, 1 domain expert)",
+    industry: "Healthcare",
     tags: ["Computer Vision", "Deep Learning", "Manufacturing", "Quality Control", "Python", "TensorFlow"],
+    features: [
+      "Real-time defect detection using deep learning",
+      "Automated quality scoring system",
+      "Edge computing deployment for factory floors",
+      "Integration with existing manufacturing systems",
+      "Comprehensive reporting and analytics"
+    ],
     challenges: [
       "Limited training data for defect examples",
       "Real-time processing requirements",

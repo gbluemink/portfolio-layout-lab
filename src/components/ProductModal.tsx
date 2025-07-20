@@ -19,10 +19,12 @@ interface ProductModalProps {
     impact: string;
     timeline: string;
     teamSize: string;
+    industry: string;
     tags: string[];
     challenges: string[];
     solutions: string[];
     metrics: string[];
+    features: string[];
     link?: string;
   } | null;
 }
@@ -49,7 +51,7 @@ const ProductModal = ({ isOpen, onClose, product }: ProductModalProps) => {
         
         <div className="space-y-6">
           {/* Key Metrics */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             <div className="flex items-center gap-2 p-3 bg-muted rounded-lg">
               <TrendingUp size={18} className="text-primary" />
               <div>
@@ -71,12 +73,37 @@ const ProductModal = ({ isOpen, onClose, product }: ProductModalProps) => {
                 <p className="font-medium">{product.teamSize}</p>
               </div>
             </div>
+            <div className="flex items-center gap-2 p-3 bg-muted rounded-lg">
+              <Target size={18} className="text-primary" />
+              <div>
+                <p className="text-sm text-muted-foreground">Industry</p>
+                <p className="font-medium">{product.industry}</p>
+              </div>
+            </div>
           </div>
 
           {/* Description */}
           <div>
             <h3 className="text-lg font-semibold mb-3">Overview</h3>
             <p className="text-muted-foreground leading-relaxed">{product.fullDescription}</p>
+          </div>
+
+          <Separator />
+
+          {/* Features */}
+          <div>
+            <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
+              <Lightbulb size={20} className="text-primary" />
+              Key Features
+            </h3>
+            <ul className="space-y-2">
+              {product.features.map((feature, index) => (
+                <li key={index} className="flex items-start gap-2">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+                  <span className="text-muted-foreground">{feature}</span>
+                </li>
+              ))}
+            </ul>
           </div>
 
           <Separator />

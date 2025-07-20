@@ -10,7 +10,7 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center hero-gradient">
       <div className="container mx-auto section-padding text-center">
         <div className="max-w-4xl mx-auto fade-in">
-          <h1 className="text-4xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent leading-tight">
+          <h1 className="text-4xl lg:text-6xl font-bold mb-8 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent leading-tight">
             AI Product Manager
           </h1>
           <p className="text-xl lg:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
@@ -50,9 +50,6 @@ const Hero = () => {
             </a>
             <a href="https://linkedin.com/in/yourprofile" className="text-muted-foreground hover:text-primary transition-colors">
               <Linkedin size={24} />
-            </a>
-            <a href="https://github.com/yourprofile" className="text-muted-foreground hover:text-primary transition-colors">
-              <Github size={24} />
             </a>
           </div>
 

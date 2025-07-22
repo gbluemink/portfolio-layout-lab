@@ -3,7 +3,7 @@ export const professionalProducts = [
   {
     id: "1",
     title: "E-commerce Mobile App",
-    description: "Led the development of a mobile shopping experience that increased conversion rates by 35%",
+    description: "Led the developments of a mobile shopping experience that increased conversion rates by 35%",
     fullDescription: "Spearheaded the design and development of a comprehensive mobile e-commerce application for a retail company with 2M+ users. The project involved complete user journey redesign, payment system integration, and personalization features.",
     impact: "35% increase in conversion rate",
     timeline: "8 months",
@@ -73,6 +73,57 @@ export const professionalProducts = [
       "85% user retention rate after 6 months"
     ]
   },
+
+{
+    id: "4", 
+    title: "SaaS Dashboard Platform",
+    description: "Built an analytics dashboard that helped 500+ businesses make data-driven decisions",
+    fullDescription: "Created a comprehensive business intelligence platform that aggregates data from multiple sources and presents actionable insights through intuitive visualizations. The platform serves small to medium businesses looking to understand their performance metrics.",
+    impact: "Used by 500+ businesses",
+    timeline: "12 months",
+    teamSize: "15 people (5 engineers, 2 designers, 1 data scientist)",
+    industry: "Construction",
+    tags: ["SaaS", "Analytics", "React", "Data Visualization", "API Design", "User Research"],
+    features: [
+      "Real-time data visualization dashboards",
+      "Custom report builder with drag-and-drop interface",
+      "Automated data pipeline from multiple sources",
+      "Collaborative workspace for team insights",
+      "Mobile-responsive design for on-the-go access"
+    ],
+    challenges: [
+      "Handling large datasets efficiently",
+      "Complex data integration from multiple sources",
+      "Creating intuitive visualizations for non-technical users",
+      "Scalable architecture for growing user base"
+    ],
+    solutions: [
+      "Implemented real-time data streaming with optimized queries",
+      "Built robust ETL pipeline with error handling",
+      "Designed progressive disclosure UI patterns",
+      "Used microservices architecture for scalability"
+    ],
+    metrics: [
+      "500+ active business users",
+      "99.9% uptime reliability",
+      "40% reduction in time-to-insight for users",
+      "85% user retention rate after 6 months"
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
     id: "3",
     title: "Healthcare Patient Portal",

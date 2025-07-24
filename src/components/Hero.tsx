@@ -10,9 +10,11 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center hero-gradient">
       <div className="container mx-auto section-padding text-center">
         <div className="max-w-4xl mx-auto fade-in">
-          <h1 className="text-4xl lg:text-6xl font-bold mb-8 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent leading-tight">
-            AI Product Manager
-          </h1>
+          <h1 className="text-4xl lg:text-6xl font-bold mb-8 leading-relaxed">
+  <span className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent pb-2 inline-block">
+    AI Product Manager
+  </span>
+</h1>
           <p className="text-xl lg:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
             Building impactful products that solve real problems. 
             Exploring the intersection of user needs, business goals, and technology.

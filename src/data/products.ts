@@ -2,14 +2,14 @@
 export const professionalProducts = [
   {
     id: "1",
-    title: "E-commerce Mobile App",
-    description: "Led the developments of a mobile shopping experience that increased conversion rates by 35%",
+    title: "Sales and Marketing Analytics Suite",
+    description: "Led the development of a Sales & Marketing Analtyics suite used to optimize Sales & Marketing Strategies",
     fullDescription: "Spearheaded the design and development of a comprehensive mobile e-commerce application for a retail company with 2M+ users. The project involved complete user journey redesign, payment system integration, and personalization features.",
-    impact: "35% increase in conversion rate",
-    timeline: "8 months",
-    teamSize: "12 people (3 engineers, 2 designers, 1 data analyst)",
+    impact: "$25 YoY Profit Margin Increase",
+    timeline: "6 Months to MVP; iterative development after",
+    teamSize: "25 people (Engineers, data scientists, data architect)",
     industry: "CPG",
-    tags: ["Mobile", "E-commerce", "React Native", "Product Strategy", "A/B Testing", "Analytics"],
+    tags: ["Machine Learning", "LLMs", "Python", "Redshift"],
     features: [
       "One-click checkout with multiple payment options",
       "AI-powered product recommendations",

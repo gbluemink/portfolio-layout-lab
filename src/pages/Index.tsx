@@ -11,14 +11,14 @@ const Index = () => {
       <ProductSection 
         id="professional-products"
         title="Professional Products"
-        subtitle="Products I've built and managed that have driven real business impact and user value"
+        subtitle="Products I've led, from Discovery, Strategy, Execution, GTM through Growth"
         products={professionalProducts}
       />
       
       <ProductSection 
         id="ai-experiments"
         title="AI Experiments"
-        subtitle="Exploring the frontiers of AI and machine learning through hands-on experimentation"
+        subtitle="4 hour or less experiments to explore different AI ideas. More to come!"
         products={aiExperiments}
       />
       

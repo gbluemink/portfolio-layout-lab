@@ -28,10 +28,10 @@ const Contact = () => {
                     <div>
                       <p className="font-medium">Email</p>
                       <a 
-                        href="mailto:your.email@example.com" 
+                        href="mailto:ge.bluemink@gmail.com" 
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        your.email@example.com
+                        ge.bluemink@gmail.com
                       </a>
                     </div>
                   </div>
@@ -43,32 +43,17 @@ const Contact = () => {
                     <div>
                       <p className="font-medium">LinkedIn</p>
                       <a 
-                        href="https://linkedin.com/in/yourprofile" 
+                        href="https://linkedin.com/in/gbluemink" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        /in/yourprofile
+                        /in/gbluemink
                       </a>
                     </div>
                   </div>
                   
-                  <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                      <Github size={18} className="text-primary" />
-                    </div>
-                    <div>
-                      <p className="font-medium">GitHub</p>
-                      <a 
-                        href="https://github.com/yourprofile" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-muted-foreground hover:text-primary transition-colors"
-                      >
-                        /yourprofile
-                      </a>
-                    </div>
-                  </div>
+                  
                   
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
@@ -76,7 +61,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="font-medium">Location</p>
-                      <p className="text-muted-foreground">San Francisco, CA</p>
+                      <p className="text-muted-foreground">United States</p>
                     </div>
                   </div>
                 </div>
@@ -92,7 +77,7 @@ const Contact = () => {
                     className="w-full justify-start btn-primary-gradient"
                     asChild
                   >
-                    <a href="mailto:your.email@example.com">
+                    <a href="mailto:ge.bluemink@gmail.com">
                       <Mail size={18} className="mr-3" />
                       Send me an email
                     </a>
@@ -103,7 +88,7 @@ const Contact = () => {
                     className="w-full justify-start"
                     asChild
                   >
-                    <a href="https://calendly.com/yourlink" target="_blank" rel="noopener noreferrer">
+                    <a href="https://calendly.com/gbluemink" target="_blank" rel="noopener noreferrer">
                       <Calendar size={18} className="mr-3" />
                       Schedule a call
                     </a>
@@ -114,21 +99,13 @@ const Contact = () => {
                     className="w-full justify-start"
                     asChild
                   >
-                    <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/gbluemink/" target="_blank" rel="noopener noreferrer">
                       <Linkedin size={18} className="mr-3" />
                       Connect on LinkedIn
                     </a>
                   </Button>
                   
-                  <Button 
-                    variant="outline" 
-                    className="w-full justify-start"
-                    asChild
-                  >
-                    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-                      Download Resume
-                    </a>
-                  </Button>
+                  
                 </div>
               </CardContent>
             </Card>
@@ -137,7 +114,7 @@ const Contact = () => {
           {/* Footer */}
           <div className="text-center">
             <p className="text-muted-foreground">
-              © 2024 Product Manager Portfolio. Built with passion for great products.
+              © 2025 Product Manager Portfolio
             </p>
           </div>
         </div>

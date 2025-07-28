@@ -45,15 +45,7 @@ const Hero = () => {
               Get In Touch
             </Button>
           </div>
-
-          <div className="flex justify-center gap-6 mb-8">
-            <a href="mailto:your.email@example.com" className="text-muted-foreground hover:text-primary transition-colors">
-              <Mail size={24} />
-            </a>
-            <a href="https://linkedin.com/in/yourprofile" className="text-muted-foreground hover:text-primary transition-colors">
-              <Linkedin size={24} />
-            </a>
-          </div>
+<br></br><br></br>
 
           <button 
             onClick={() => scrollToSection('professional-products')}

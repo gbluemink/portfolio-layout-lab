@@ -12,6 +12,7 @@ import { ChartLine } from "lucide-react";
 import { Hospital } from "lucide-react";
 import { CalendarCheck } from "lucide-react";
 import { BookImage } from "lucide-react";
+import { ClipboardList } from "lucide-react";
 
 export const professionalProducts = [
   {
@@ -70,7 +71,9 @@ export const professionalProducts = [
       "Prescriptive analytics to reduce impact",
       "Inventory re-routing"
     ],
-    
+      
+
+
     metrics: [
       "$7M loss avoidances during period of supply shortages"
     ]
@@ -78,7 +81,7 @@ export const professionalProducts = [
   {
     id: "2.5", 
     title: "Production Base Optimization",
-    icon: TrendingUpDown,
+    icon: ClipboardList,
     description: "Determined the most cost‑effective base production plan that met demand forecasts, incorporated recent sales trends, and adhered to service‑level and operational constraints on a monthly, quarterly, and yearly cycle.",
     fullDescription: "Determined the most cost‑effective base production plan that met demand forecasts, incorporated recent sales trends, and adhered to service‑level and operational constraints on a monthly, quarterly, and yearly cycle.  ",
     impact: "3% reduction in CPU (cost per unit)",
@@ -268,10 +271,10 @@ export const professionalProducts = [
 ,
   {
     id: "9", 
-    title: "Online / Aggregated Explanation of Benefits",
+    title: "Online Explanation of Benefits",
     icon: Hospital, 
-    description: "Digital and print‑ready monthly roll‑up of claims into a single patient‑friendly statement.",
-    fullDescription: "Consolidated individual EOBs across medical, pharmacy, and ancillary claims into a unified monthly statement, accessible online and via mail, improving transparency and reducing support costs. ",
+    description: "Digital and print‑ready monthly roll‑up of patient claims into a single patient‑friendly monthly statement.",
+    fullDescription: "Consolidated individual EOBs across medical, pharmacy, and ancillary claims into a unified monthly statement, accessible online and via mail for 7M patients, improving transparency and reducing support costs. ",
     impact: "$6M annual cost savings",
     timeline: "6 month MVP",
     teamSize: "20 people (engineers, architect)",

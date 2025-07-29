@@ -87,7 +87,9 @@ export const professionalProducts = [
     industry: "CPG",
     tags: ["SaaS", "Machine Learning", "Python", "AWS"],
     features: [
-      "Multi-horizon planning engine: monthly, quarterly, and yearly" 
+      "Multi-horizon planning engine: monthly, quarterly, and yearly" ,
+      "Integration with downstream COTS production planning systems updates",
+      "Flagged products for planners that do not require review"
     ],
     
     metrics: [

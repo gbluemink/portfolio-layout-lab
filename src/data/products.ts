@@ -350,7 +350,7 @@ export const aiExperiments = [
     title: "Sacrificial Concept Generation ",
     icon: BookImage, 
     description: "Produces multiple solution concepts (text + images) using generative AI",
-    fullDescription: "During product‑management discovery, we start with divergent thinking—generating many possibilities—before converging on the optimal solution. This experiment automates that exploratory phase by using generative AI to create a set of solution concepts, complete with descriptive narratives and illustrative images, tailored to the user‑defined problem statement, persona insights, and business objectives.",
+    fullDescription: "During product‑management discovery, we start with divergent thinking—generating many possibilities—before converging on the optimal solution. This experiment automates that exploratory phase by using generative AI to create a set of solution concepts, complete with descriptive narratives and illustrative images, tailored to the user‑defined problem statement, persona insights, and business objectives. Demo coming soon, but you can schdule a meeting with me in the meantime to see it in action.",
     /*impact: "25% increase in click-through rate",*/
     timeline: "3 hours",
     /*teamSize: "4 people (2 ML engineers, 1 backend engineer)",

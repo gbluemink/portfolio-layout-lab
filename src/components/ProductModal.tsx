@@ -155,7 +155,7 @@ const ProductModal = ({ isOpen, onClose, product }: ProductModalProps) => {
 
           {/* Tags */}
           <div>
-            <h3 className="text-lg font-semibold mb-3">Technologies</h3>
+            <h3 className="text-lg font-semibold mb-3">Technologies / Tags</h3>
             <div className="flex flex-wrap gap-2">
               {product.tags?.length > 0 ? (
                 product.tags.map((tag) => (

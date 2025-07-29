@@ -19,7 +19,7 @@ export const professionalProducts = [
     title: "Sales and Marketing Analytics Platforms",
     icon: AreaChart, 
     description: "Global analytics platforms to optimize sales and marketing strategies across regional and international teams",
-    fullDescription: " Led discovery, design, development, and iterative enhancement of global sales and marketing analytics platforms for two international clients. Delivered tools to improve pricing strategy, promotion effectiveness, competitor response, and customer segmentation using advanced analytics.   ",
+    fullDescription: " Led discovery, design, development, and iterative enhancement of global sales and marketing analytics platforms for two international clients. Delivered technical enablers, models, and front end tools to improve pricing strategy, promotion effectiveness, competitor response, and customer segmentation using advanced analytics.   ",
     impact: "$25M YoY profit margin increase",
     timeline: "6 Months to MVP; iterative enhancements thereafter",
     teamSize: "25 (engineers, data scientists, data architect)",
@@ -28,9 +28,9 @@ export const professionalProducts = [
     features: [
       "Predictive analytics to optimize promotions across brands and retailers",
       "End-to-end profit pool tools to align manufacturer and retailer margins and identify optimal consumer pricing",
-      "In-store display execution monitoring to assess display performance (timing, inventory compliance, etc.))",
-      "Jobs-to-be-done segmentation to guide promotion targeting and product strategy",
-      "Competitor intelligence and prescriptive analytics to respond to market changes"
+      "In-store display execution monitoring to assess display performance (timing, inventory compliance, etc.)",
+      "Customer jobs-to-be-done segmentation to guide promotion targeting and product strategy",
+      "Competitor and macro environment intelligence to surface insights, risks, and corresponding impacts on sales and marketing strategies"
     ],/*
     challenges: [
       "Complex user journey with multiple touchpoints",
@@ -55,18 +55,18 @@ export const professionalProducts = [
   },
   {
     id: "2", 
-    title: "Constraint Based Optimization Analytics",
+    title: "Constraint Based Optimization & Supply Chain Analytics",
     icon: TrendingUpDown,
     description: "Supply‑chain analytics suite that detects raw‑material shortages and prescribes mitigation tactics.",
-    fullDescription: "Built a constraint‑based optimization platform that surfaced real‑time raw‑goods shortages, quantified downstream impacts on finished goods, warehousing, inventory, retail sales, and financials, and delivered predictive and prescriptive recommendations",
-    impact: "$7M loss avoidance",
-    timeline: "6 months",
+    fullDescription: "Constraint‑based optimization tool suite that surfaced real‑time raw‑goods shortages, quantified downstream impacts on finished goods, warehousing, inventory, retail sales, and financials, and delivered predictive and prescriptive recommendations",
+    impact: "$7M loss avoidances",
+    timeline: "4 months to MVP; iterative enhancements thereafter",
     teamSize: "15 people (engineers, data scientists)",
     industry: "CPG",
     tags: ["SaaS", "Machine Learning", "Python", "AWS"],
     features: [
       "Live shortage dashboards",
-      "Impact determination to finished goods, warehouse manufacturing, inventories, retail sales, financials",
+      "Impact determination to finished goods, warehouse manufacturing, inventories, retail sales, financials, paid-promotions",
       "Prescriptive analytics to reduce impact",
       "Inventory re-routing"
     ],
@@ -75,13 +75,33 @@ export const professionalProducts = [
       "$7M loss avoidances during period of supply shortages"
     ]
   },
+  {
+    id: "2.5", 
+    title: "Production Base Optimization",
+    icon: TrendingUpDown,
+    description: "Determined the most cost‑effective base production plan that met demand forecasts, incorporated recent sales trends, and adhered to service‑level and operational constraints on a monthly, quarterly, and yearly cycle.",
+    fullDescription: "Determined the most cost‑effective base production plan that met demand forecasts, incorporated recent sales trends, and adhered to service‑level and operational constraints on a monthly, quarterly, and yearly cycle.  ",
+    impact: "3% reduction in CPU (cost per unit)",
+    timeline: "4 months",
+    teamSize: "5 people (engineers, data scientists)",
+    industry: "CPG",
+    tags: ["SaaS", "Machine Learning", "Python", "AWS"],
+    features: [
+      "Multi-horizon planning engine: monthly, quarterly, and yearly" 
+    ],
+    
+    metrics: [
+      "Planner override rate reduced by 30%",
+      "Days of Inventory on Hand dropped by 10% without raising stock-outs"
+    ]
+  },
 
 {
     id: "3", 
-    title: "Encounter Management Platform",
+    title: "Encounter / Claims Management Platform",
     icon: ArrowLeftRight, 
-    description: "End‑to‑end ingestion, cleansing, transformation, and submission of healthcare encounter data to state agencies.",
-    fullDescription: "Consolidated billing data from disparate systems, transformed it into compliant formats, automated acknowledgements, and routed exceptions to relevant teams, creating a single source of truth for encounter management.",
+    description: "End‑to‑end ingestion, cleansing, transformation, and submission of billing data to state agencies.",
+    fullDescription: "Consolidated billing data from disparate systems, transformed it into compliant formats, automated acknowledgements, and routed exceptions to relevant teams (to remediate), creating a single source of truth for encounter management.",
     
     impact: "$10M YoY profit margin increase",
     timeline: "6 month MVP; iterative enhancements thereafter",
@@ -150,7 +170,7 @@ export const professionalProducts = [
     description: "OCR‑driven system that merges paper records, EHRs, and billing data for high‑volume abstraction.",
     fullDescription: "Deployed Optical Character Recognition (OCR) and automated workflows to ingest twelve million yearly records, load‑balance work across two vendors and 800 abstractors, enabling rapid abstraction. ",
     impact: "$6M annual cost savings",
-    timeline: "5 months",
+    timeline: "4 months to MVP; iterative enhancements thereafter",
     teamSize: "30 people (engineers, data scientists, data analytists, architect, security)",
     industry: "Healthcare",
     tags: ["SaaS", "OCR", "AWS", "B2B"],
@@ -196,7 +216,7 @@ export const professionalProducts = [
     description: "Order‑intake and billing solution serving half of Florida’s at‑home patient population.",
     fullDescription: "Redesigned intake workflows, automated renewals for prescriptions and authorizations, and produced Health Insurance Portability and Accountability Act (HIPAA)‑compliant claims files for 48 health plans, boosting revenue capture.",
     impact: "25% increase in revenue capture on $1.7B in annual transactions",
-    timeline: "7 month MVP",
+    timeline: "7 month MVP; iterative enhancements thereafter",
     teamSize: "35 people (engineers, data scientists, data analytists, business analysts, architect, security)",
     industry: "Healthcare",
     tags: ["SaaS", "AWS", "B2B"],

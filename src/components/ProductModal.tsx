@@ -51,7 +51,7 @@ const ProductModal = ({ isOpen, onClose, product }: ProductModalProps) => {
               <Button variant="outline" size="sm" asChild>
                 <a href={product.link} target="_blank" rel="noopener noreferrer">
                   <ExternalLink size={16} className="mr-2" />
-                  View Demo in LinkedIn Post
+                  View Youtube Demo
                 </a>
               </Button>
             )}

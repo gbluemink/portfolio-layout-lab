@@ -389,8 +389,8 @@ export const aiExperiments = [
       "10% increase in purchase conversion",
       "Sub-100ms response time for recommendations"
     ]
-   
-    link: "https://www.linkedin.com/posts/gbluemink_sacrificial-concepts-to-enhance-product-discovery-activity-7353584564876763136-D1oe?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAmd3pcBO85Kx0PwBahRo_LDV7vxyYVh_7Y"*/
+   */
+    link: "https://youtu.be/azl8skPxNCI"
   }
   
   

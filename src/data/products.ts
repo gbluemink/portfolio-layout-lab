@@ -85,7 +85,7 @@ export const professionalProducts = [
     description: "Determined the most cost‑effective base production plan that met demand forecasts, incorporated recent sales trends, and adhered to service‑level and operational constraints on a monthly, quarterly, and yearly cycle.",
     fullDescription: 
     
-    "Developed and deployed multi-horizon production-planning product that determined the most cost-effective base production plan by triangulating forward demand forecasts, current inventory on hand and in transit, dynamic safety-stock thresholds, recent sales trends, and plant-level capacity limits. The engine automatically recommends schedules, flags only the exceptions that need planner review, and exports approved plans to downstream Commercial Off-The-Shelf (COTS) production-planning systems.",
+    "Developed and deployed multi-horizon production-planning product that determined the most cost-effective base production plan by triangulating forward demand forecasts, current inventory on hand and in transit, dynamic safety-stock thresholds, recent sales trends, and plant-level capacity limits. The engine automatically recommended schedules, flags only the exceptions that need planner review, and exported approved plans to downstream Commercial Off-The-Shelf (COTS) production-planning systems.",
   
     
     impact: "3% reduction in CPU (cost per unit)",

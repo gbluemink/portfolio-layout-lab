@@ -355,7 +355,7 @@ export const aiExperiments = [
     title: "Sacrificial Concept Generation ",
     icon: BookImage, 
     description: "Produces multiple solution concepts (text + images) using generative AI",
-    fullDescription: "During product‑management discovery, we start with divergent thinking—generating many possibilities—before converging on the optimal solution. This experiment automates that exploratory phase by using generative AI to create a set of solution concepts, complete with descriptive narratives and illustrative images, tailored to the user‑defined problem statement, persona insights, and business objectives. Demo coming soon, but you can schdule a meeting with me in the meantime to see it in action.",
+    fullDescription: "During product‑management discovery, we start with divergent thinking—generating many possibilities—before converging on the optimal solution. This experiment automates that exploratory phase by using generative AI to create a set of solution concepts, complete with descriptive narratives and illustrative images, tailored to the user‑defined problem statement, persona insights, and business goals and objectives. For a demo, send me a Calendy invite",
     /*impact: "25% increase in click-through rate",*/
     timeline: "3 hours",
     /*teamSize: "4 people (2 ML engineers, 1 backend engineer)",
@@ -363,8 +363,7 @@ export const aiExperiments = [
     tags: ["Tailwind CSS", "Next.JS", "OpenAI API", "VS Code", "Dalle-3 image generation"],
     features: [
       "Enriches user input data with industry specific context, terminology, and concepts",
-      "Generates 25 unique ideas to solve for user problem using OpenAI O3 model",
-      "Ideas generated use creativity: (1) look at other industries for similar problems / solutions (2) question generally head beliefs that is accepted in the industry, etc",
+      "Generates 25 unique ideas to solve for user problem",
       "Optional: Rank / sort ideas based on problem / solution fit, product goal fit, user fit, feasibility, and business fit",
       "Dalle-3 for corresponding image generation"
     ],

@@ -18,7 +18,7 @@ const Index = () => {
       <ProductSection 
         id="ai-experiments"
         title="AI Experiments"
-        subtitle="4 hour or less experiments to explore different AI ideas. More to come!"
+        subtitle="3 hour or less experiments to explore different AI ideas. Just for fun!"
         products={aiExperiments}
       />
       

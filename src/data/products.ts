@@ -390,7 +390,7 @@ export const aiExperiments = [
       "Sub-100ms response time for recommendations"
     ]
    */
-    link: "https://youtu.be/azl8skPxNCI"
+    link: "https://youtu.be/m_XvtTWpXmo"
   }
   
   

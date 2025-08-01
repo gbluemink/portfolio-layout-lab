@@ -59,7 +59,7 @@ export const professionalProducts = [
     title: "Constraint Based Optimization & Supply Chain Analytics",
     icon: TrendingUpDown,
     description: "Supply‑chain analytics suite that detects raw‑material shortages and prescribes mitigation tactics.",
-    fullDescription: "Constraint‑based optimization tool suite that surfaced real‑time raw‑goods shortages, quantified downstream impacts on finished goods, warehousing, inventory, retail sales, and financials, and delivered predictive and prescriptive recommendations",
+    fullDescription: "Constraint‑based optimization tool suite that surfaced real‑time raw‑goods shortages, quantified downstream impacts on finished goods, warehousing, inventory, retail sales, and financials, and delivered prescriptive recommendations",
     impact: "$7M loss avoidances",
     timeline: "4 months to MVP; iterative enhancements thereafter",
     teamSize: "15 people (engineers, data scientists)",
@@ -69,7 +69,7 @@ export const professionalProducts = [
       "Live shortage dashboards",
       "Impact determination to finished goods, warehouse manufacturing, inventories, retail sales, financials, paid-promotions",
       "Prescriptive analytics to reduce impact",
-      "Inventory re-routing"
+      "Inventory re-routing; substite good recommendations"
     ],
       
 

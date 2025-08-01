@@ -250,7 +250,7 @@ export const professionalProducts = [
     icon: ChartLine, 
     description: "Executive and tactical dashboards for operational and financial performance across three service lines.",
     fullDescription: "Delivered end‑to‑end analytics covering order flow, revenue cycle, customer value, vendor performance / quality, and workforce productivity, enabling data‑driven decisions that increased margins and reduced costs.",
-    impact: ">=5% profit margin increase",
+    impact: "multiple",
     timeline: "7 month MVP",
     teamSize: "10 people (engineers, data scientists, architect)",
     industry: "Healthcare",
@@ -262,13 +262,14 @@ export const professionalProducts = [
       "Customer value and profitability",
       "Employee productivity analytics",
       "Home health nursing fullfillment tracking",
-      "Vendor scorecarding and performance tracking"
+      "Vendor scorecards and performance tracking"
     ],
  
  
     metrics: [
-      "5%+ yearly profit margin increase",
-      "30% reduction in labor costs" 
+      "Order to delivery time reduced by 10%",
+      "8% reduction in labor costs",
+      "10%+ increase in profit margins enabled by profitability analytics and contract renegotiation" 
     ]
   }
 
@@ -359,7 +360,7 @@ export const aiExperiments = [
     title: "Sacrificial Concept Generation ",
     icon: BookImage, 
     description: "Produces multiple solution concepts (text + images) using generative AI",
-    fullDescription: "During product‑management discovery, we start with divergent thinking—generating many possibilities—before converging on the optimal solution. This experiment automates that exploratory phase by using generative AI to create a set of solution concepts, complete with descriptive narratives and illustrative images, tailored to the user‑defined problem statement, persona insights, and business goals and objectives. ",
+    fullDescription: "During product management discovery, we use divergent thinking, generating many solution ideas, before converging on an optimal solution. This experiment automates that exploratory phase by using genAI to create a set of solution concepts, complete with descriptive narratives and illustrative images, tailored to the user‑defined problem statement, JTBD persona insights, and business goals, objectives, etc. ",
     /*impact: "25% increase in click-through rate",*/
     timeline: "3 hours",
     /*teamSize: "4 people (2 ML engineers, 1 backend engineer)",
@@ -367,7 +368,7 @@ export const aiExperiments = [
     tags: ["Tailwind CSS", "Next.JS", "OpenAI API", "VS Code", "Dalle-3 image generation"],
     features: [
       "Enriches user input data with industry specific context, terminology, and concepts",
-      "Generates 25 unique ideas to solve for user problem",
+      "Generates 25 unique ideas to solve for user problem: looks across industries for metaphors, challenging industry norms, leveraging new technologies, ways to integrate with existing assets etc",
       "Optional: Rank / sort ideas based on problem / solution fit, product goal fit, user fit, feasibility, and business fit",
       "Dalle-3 for corresponding image generation"
     ],

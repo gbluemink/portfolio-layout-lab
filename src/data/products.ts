@@ -360,7 +360,7 @@ export const aiExperiments = [
     title: "Sacrificial Concept Generation ",
     icon: BookImage, 
     description: "Produces multiple solution concepts (text + images) using generative AI",
-    fullDescription: "During product management discovery, we use divergent thinking, generating many solution ideas, before converging on an optimal solution. This experiment automates that exploratory phase by using genAI to create a set of solution concepts, complete with descriptive narratives and illustrative images, tailored to the user‑defined problem statement, JTBD persona insights, and business goals, objectives, etc. ",
+    fullDescription: "During product management discovery, we use divergent thinking, generating many solution ideas, before converging on an optimal solution. This experiment automates that exploratory phase by using genAI to create a set of solution concepts, complete with descriptive narratives and illustrative images, tailored to the user‑defined problem statement, JTBD persona insights, and business goals, objectives, etc. How it works: user enters problem details; system enhances with industry context and terminology; generates 25 unique ideas; ranks them based on problem/solution fit, product goal fit, user fit, feasibility, and business fit; and finally uses Dalle-3 to generate corresponding images.",
     /*impact: "25% increase in click-through rate",*/
     timeline: "3 hours",
     /*teamSize: "4 people (2 ML engineers, 1 backend engineer)",
@@ -390,8 +390,8 @@ export const aiExperiments = [
       "10% increase in purchase conversion",
       "Sub-100ms response time for recommendations"
     ]
-   */
-    link: "https://youtu.be/m_XvtTWpXmo"
+   
+    link: "https://youtu.be/m_XvtTWpXmo"*/
   }
   
   

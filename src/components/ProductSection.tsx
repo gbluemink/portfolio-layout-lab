@@ -12,6 +12,7 @@ interface Product {
   title: string;
   description: string;
   fullDescription: string;
+  problemDescription?: string;
   impact?: string;
   timeline?: string;
   teamSize?: string;

@@ -25,6 +25,7 @@ interface ProductModalProps {
     title: string;
     description: string;
     fullDescription: string;
+    problemDescription?: string; // Added for problem description
     impact?: string; // Made optional for AIExperiments
     timeline?: string; // Made optional for AIExperiments
     teamSize?: string; // Made optional for AIExperiments
@@ -110,6 +111,18 @@ const ProductModal = ({ isOpen, onClose, product }: ProductModalProps) => {
           </div>
 
           <Separator />
+
+          {/* Problem Description */}
+          {product.problemDescription && (
+            <div>
+              <h3 className="text-lg font-semibold mb-3">Problem Description</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                {product.problemDescription}
+              </p>
+            </div>
+          )}
+
+          {product.problemDescription && <Separator />}
 
           {/* Features */}
           <div>

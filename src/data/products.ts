@@ -19,8 +19,9 @@ export const professionalProducts = [
     id: "1",
     title: "Sales and Marketing Analytics Platforms",
     icon: AreaChart, 
-    description: "Global analytics platforms to optimize sales and marketing strategies across regional and international teams",
-    fullDescription: " Led discovery, design, development, and iterative enhancement of global sales and marketing analytics platforms for two international clients. Delivered technical enablers, models, and front end tools to improve pricing strategy, promotion effectiveness, competitor response, and customer segmentation using advanced analytics.   ",
+    description: "Global analytics products to optimize sales and marketing strategies across regional and international teams",
+    fullDescription: "Led discovery, design, development, and iterative enhancement of global sales and marketing analytics products for two international clients. Delivered technical enablers, models, and front end tools to improve pricing strategy, promotion effectiveness, competitor response, and customer segmentation using advanced analytics.   ",
+    problemDescription: "International CPG companies were struggling with fragmented data across regional teams, leading to inconsistent pricing strategies, ineffective promotions, and missed opportunities for cross-regional optimization. The lack of unified analytics made it difficult to understand customer behavior patterns and competitor market changes across different markets.",
     impact: "$25M YoY profit margin increase",
     timeline: "6 Months to MVP; iterative enhancements thereafter",
     teamSize: "25 (engineers, data scientists, data architect)",
@@ -60,6 +61,7 @@ export const professionalProducts = [
     icon: TrendingUpDown,
     description: "Supply‑chain analytics suite that detects raw‑material shortages and prescribes mitigation tactics.",
     fullDescription: "Constraint‑based optimization tool suite that surfaced real‑time raw‑goods shortages, quantified downstream impacts on finished goods, warehousing, inventory, retail sales, and financials, and delivered prescriptive recommendations",
+    problemDescription: "During supply chain disruptions, CPG companies were experiencing significant losses due to raw material shortages that cascaded through their entire production and distribution network. The lack of real-time visibility into shortage impacts and the absence of automated mitigation strategies resulted in reactive decision-making and substantial financial losses.",
     impact: "$7M loss avoidances",
     timeline: "4 months to MVP; iterative enhancements thereafter",
     teamSize: "15 people (engineers, data scientists)",
@@ -86,6 +88,7 @@ export const professionalProducts = [
     fullDescription: 
     
     "Developed and deployed multi-horizon production-planning product that determined the most cost-effective base production plan by triangulating forward demand forecasts, current inventory on hand and in transit, dynamic safety-stock thresholds, recent sales trends, and plant-level capacity limits. The engine automatically recommended schedules, flags only the exceptions that need planner review, and exported approved plans to downstream Commercial Off-The-Shelf (COTS) production-planning system.",
+    problemDescription: "Manufacturing companies were struggling with inefficient production planning that led to excess inventory, stockouts, and increased costs. Manual planning processes were time-consuming, error-prone, and failed to account for multiple variables including demand forecasts, current inventory, capacity constraints, and safety stock requirements.",
   
     
     impact: "3% reduction in CPU (cost per unit)",
@@ -105,12 +108,13 @@ export const professionalProducts = [
     ]
   },
 
-{
+  {
     id: "3", 
     title: "Encounter / Claims Management Platform",
     icon: ArrowLeftRight, 
     description: "End‑to‑end ingestion, cleansing, transformation, and submission of billing data to state agencies.",
     fullDescription: "Consolidated billing data from disparate systems, transformed it into compliant formats, automated acknowledgements, and routed exceptions to relevant teams (to remediate), creating a single source of truth for encounter management.",
+    problemDescription: "Healthcare insurance org was struggling with ingestion of fragmented / poor-quality billing data across multiple billing systems, leading to compliance issues, delayed reimbursements, and fines. The lack of automated data validation, cleansing and exception handling resulted in significant revenue leakage and regulatory risks.",
     
     impact: "$10M YoY profit margin increase",
     timeline: "6 month MVP; iterative enhancements thereafter",
@@ -120,9 +124,10 @@ export const professionalProducts = [
     features: [
       "Executive dashboards for performance, revenue, compliance risk",
       "Redesigned and automated workflows across 5 departments",
+      "encounter / claim submissions to state agencies; automated acknowledgements and routing of exceptions",
       "Automated data pipeline from multiple sources",
       "Anomaly detection and alerting", 
-      "Chatbot support for real-time analytics" 
+      "Conversational agent support for to troubleshoot claim rejections and recommend solutions" 
     ],
  
  
@@ -138,7 +143,8 @@ export const professionalProducts = [
     title: "Patient Outcome Performance Platform",
     icon: BriefcaseMedical, 
     description: "Analytics platform that elevates clinician performance and patient outcomes to national top‑decile benchmarks",
-    fullDescription: "Integrated billing, Electronic Health Records (EHRs), and performance data to give clinicians real‑time visibility into 400 key metrics and patient‑level drill‑downs, enabling data‑driven coaching and Centers for Medicare & Medicaid Services (CMS) reporting.",
+    fullDescription: "Integrated billing, Electronic Health Records (EHRs), and performance data to give clinicians real‑time visibility into 400 key metrics and patient‑level drill‑downs, enabling data‑driven coaching and Centers for Medicare & Medicaid Services (CMS) reporting.",
+    problemDescription: "Healthcare systems were failing to provide clinicians with actionable performance insights, leading to suboptimal patient outcomes and missed reimbursement opportunities. Clinicians lacked visibility into their performance metrics and had no systematic way to track progress toward quality benchmarks or CMS reporting requirements.",
     impact: "$20M YoY Profit Margins",
     timeline: "7 months to MVP; iterative enhancements thereafter",
     teamSize: "30 people (engineers, 1 designer, architect, security)",
@@ -150,6 +156,7 @@ export const professionalProducts = [
       "Clinician groups oversight of clinician performance to support coaching and training",
       "Disease surveillance to identify trends and outbreaks",
       "Integration with CMS for yearly MIPS / MACRA reporting",
+"Automated data validation to the EHR using OCR and NLP",
       "Auto‑selection of highest‑yield measures for reimbursement"
     ],/*
     challenges: [
@@ -177,7 +184,8 @@ export const professionalProducts = [
     title: "Medical Abstraction and Coding Platform",
     icon: Binary, 
     description: "OCR‑driven system that merges paper records, EHRs, and billing data for high‑volume abstraction.",
-    fullDescription: "Deployed Optical Character Recognition (OCR) and automated workflows to ingest twelve million yearly records, load‑balance work across two vendors and 800 abstractors, enabling rapid abstraction. ",
+    fullDescription: "Deployed Optical Character Recognition (OCR) and automated workflows to ingest twelve million yearly records, load‑balance work across two vendors and 800 abstractors, enabling rapid abstraction. ",
+    problemDescription: "A healthcare organization was struggling with manual medical record abstraction processes that were slow, error-prone, and expensive. The lack of automation in processing millions of records annually resulted in significant operational inefficiencies, delayed clinical insights, and ultimately non-compliance with CMS.",
     impact: "$6M annual cost savings",
     timeline: "4 months to MVP; iterative enhancements thereafter",
     teamSize: "30 people (engineers, data scientists, data analytists, architect, security)",
@@ -200,7 +208,8 @@ export const professionalProducts = [
     icon: BadgeDollarSign, 
     description: "Promotional capabilities that increased new‑customer acquisition, session length, and retention across 140 gaming locations.",
     fullDescription: "Implemented AI‑driven promotional capabilities and virtualized gaming servers, resulting in longer gameplay sessions, higher retention, and a sustained double‑digit profit‑margin lift.",
-    impact: ">10 % profit‑margin increase; ≈$500 K per day",
+    problemDescription: "A Casino Gaming company was experiencing underperfoming customer engagement and retention across their physical locations. The lack of data-driven promotional strategies and automated optimization capabilities resulted in missed revenue opportunities and poor customer experience.",
+    impact: ">10 % profit‑margin increase; ≈$500 K per day",
     timeline: "4 month MVP; iterative enhancements thereafter",
     teamSize: "25 people (engineers, data scientists, data analytists, architect, security)",
     industry: "Gaming",
@@ -222,8 +231,9 @@ export const professionalProducts = [
     id: "7", 
     title: "Durable Medical Equipment (DME) Order Intake & Billing Platform",
     icon: Accessibility, 
-    description: "Order‑intake and billing solution serving half of Florida’s at‑home patient population.",
+    description: "Order‑intake and billing solution serving half of Florida's at‑home patient population.",
     fullDescription: "Redesigned intake workflows, automated renewals for prescriptions and authorizations, and produced Health Insurance Portability and Accountability Act (HIPAA)‑compliant claims files for 48 health plans, boosting revenue capture.",
+    problemDescription: "DME providers were losing significant revenue due to manual, error-prone order intake processes and inefficient billing workflows. The lack of automation in prescription renewals and authorization management led to delayed patient care and substantial revenue leakage.",
     impact: "25% increase in revenue capture on $1.7B in annual transactions",
     timeline: "7 month MVP; iterative enhancements thereafter",
     teamSize: "35 people (engineers, data scientists, data analytists, business analysts, architect, security)",
@@ -250,6 +260,7 @@ export const professionalProducts = [
     icon: ChartLine, 
     description: "Executive and tactical dashboards for operational and financial performance across three service lines.",
     fullDescription: "Delivered end‑to‑end analytics covering order flow, revenue cycle, customer value, vendor performance / quality, and workforce productivity, enabling data‑driven decisions that increased margins and reduced costs.",
+    problemDescription: "A Healthcare organization operating multiple service lines lacked comprehensive visibility into operational performance and financials, leading to inefficient resource allocation and missed optimization opportunities. The absence of unified analytics across home health, pharmacy, and DME services resulted in suboptimal decision-making.",
     impact: "multiple",
     timeline: "7 month MVP",
     teamSize: "10 people (engineers, data scientists, architect)",
@@ -280,6 +291,7 @@ export const professionalProducts = [
     icon: Hospital, 
     description: "Digital and print‑ready monthly roll‑up of patient claims into a single patient‑friendly monthly statement.",
     fullDescription: "Consolidated individual EOBs across medical, pharmacy, and ancillary claims into a unified monthly statement, accessible online and via mail for 7M patients, improving transparency and reducing support costs. ",
+    problemDescription: "Patients were receiving multiple individual Explanation of Benefits (EOB) statements without accumulator information, leading to increased customer service calls, and poor patient experience. The fragmented nature of claims data made it difficult for patients to understand their healthcare costs and coverage.",
     impact: "$6M annual cost savings",
     timeline: "6 month MVP",
     teamSize: "20 people (engineers, architect)",
@@ -296,15 +308,15 @@ export const professionalProducts = [
       "35% reduction in customer service calls",
       "Reduction in paper statements" 
     ]
-  }
+  },
 
-,
   {
     id: "10", 
     title: "Vendor Bidding and Evaluation Platform",
     icon: BadgeDollarSign, 
     description: "Online bidding and comparative evaluation across 30 vendor categories",
     fullDescription: "Enabled vendors to submit bids online, automated error checks, and provided purchasing managers with side‑by‑side comparisons based on cost, quality, delivery, and issue history, accelerating award decisions.",
+    problemDescription: "Manufacturing companies were struggling with inefficient vendor selection processes that were time-consuming, lacked transparency, and resulted in suboptimal supplier choices. The manual nature of bid collection and evaluation led to delays, errors, and missed cost-saving opportunities.",
     impact: "$14.3M annual cost savings",
     timeline: "6 month MVP",
     teamSize: "5 people (engineers, architect)",
@@ -328,7 +340,8 @@ export const professionalProducts = [
     title: "Labor / Material Scheduler Suite",
     icon: CalendarCheck, 
     description: "Schedule‑driven procurement, purchase‑order generation, and workforce planning for custom manufacturing jobs",
-    fullDescription: "Automatically scheduled labor and material requirements for 650 + annual custom jobs valued at $200K+ each, generated purchase orders, and enabled supervisors to reconcile deliveries via mobile app, halving project lead times.",
+    fullDescription: "Automatically scheduled labor and material requirements for 650 + annual custom jobs valued at $200K+ each, generated purchase orders, and enabled supervisors to reconcile deliveries via mobile app, halving project lead times.",
+    problemDescription: "Custom manufacturing companies were experiencing significant delays and cost overruns due to inefficient scheduling and procurement processes. The lack of automated coordination between labor scheduling, material procurement, and project management resulted in missed deadlines and increased operational costs.",
     impact: "$3M annual labor / cost savings",
     timeline: "6 month MVP",
     teamSize: "10 people (engineers, architect)",
@@ -361,6 +374,7 @@ export const aiExperiments = [
     icon: BookImage, 
     description: "Produces multiple solution concepts (text + images) using generative AI",
     fullDescription: "During product management discovery, we use divergent thinking, generating many solution ideas, before converging on an optimal solution. This experiment automates that exploratory phase by using genAI to create a set of solution concepts, complete with descriptive narratives and illustrative images, tailored to the user‑defined problem statement, JTBD persona insights, and business goals, objectives, etc. How it works: user enters problem details; system enhances with industry context and terminology; generates 25 unique ideas; ranks them based on problem/solution fit, product goal fit, user fit, feasibility, and business fit; and finally uses Dalle-3 to generate corresponding images.",
+    problemDescription: "Product managers and designers often struggle with the initial ideation phase of product development, spending significant time manually generating and evaluating solution concepts. The lack of automated tools for divergent thinking and concept generation results in limited exploration of potential solutions and slower time-to-market.",
     /*impact: "25% increase in click-through rate",*/
     timeline: "3 hours",
     /*teamSize: "4 people (2 ML engineers, 1 backend engineer)",
